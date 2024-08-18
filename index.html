@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamSwapper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>StreamSwapper 🎵</h1>
+        <p>Convert your Spotify playlist to a YouTube playlist effortlessly.</p>
+        <div class="form-container">
+            <input type="text" id="spotify-link" placeholder="Enter Spotify Playlist Link" />
+            <button id="convert-button">Convert 🔄</button>
+        </div>
+        <div id="loading" class="hidden">Loading... ⏳</div>
+        <div id="result" class="hidden">
+            <p>Your YouTube playlist: <a id="youtube-link" href="#" target="_blank"></a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
